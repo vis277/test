@@ -1,0 +1,25 @@
+http://www.omdbapi.com/?i=tt3896198&apikey=b41e2a93
+
+Requirements
+1. movies/tv search by
+1.1  name.
+1.2 rating
+1.3 gynre
+1.4 year 
+
+2 carousel for top movies this year
+
+
+3 carosel for recommended section
+
+
+4.Carousel for trending tv
+
+
+sign in page
+
+
+
+
+
+

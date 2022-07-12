@@ -1,0 +1,30 @@
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.movie-image {
+  height: 16em;
+  width: 22em;
+  object-fit: cover;
+}
+.image-conatiner {
+  position: relative;
+  border: 1px solid salmon;
+}
+.rating-container {
+  position: absolute;
+  bottom: 0;
+  background-color: aquamarine;
+}
+
+.bookmark {
+  height: 20px;
+  width: 20px;
+  border: 1px solid silver;
+}
+
+.bookmarksave {
+  background-color: greenyellow;
+}

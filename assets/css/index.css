@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* header css starts here */
+
+.header {
+  display: flex;
+}
+
+.header-left {
+  display: flex;
+  flex: 1;
+  background-color: aqua;
+  gap: 2em;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+  background-color: aliceblue;
+}
+
+.header-left-movies {
+  position: relative;
+}
+
+.hover-movie-display {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  white-space: nowrap;
+  padding: 1em;
+  display: none;
+}
+
+/* main css starts here */
+.main {
+  background-color: black;
+  padding-bottom: 20px;
+}
+.click-search {
+  display: flex;
+  width: 80%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-left: 90px;
+}
+
+#search {
+  flex: 0.8;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+#click-search-button {
+  flex: 0.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 100px;
+  height: 2.5rem;
+}
